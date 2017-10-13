@@ -51,3 +51,10 @@ Simply add script tag
   withSpecialChar('f!oo~ar') // true
   withSpecialChar('foobaar'); // false
 ```
+
+- ### noSpecialChar
+```js
+  noSpecialChar('foobaar') // true
+  noSpecialChar('f!oo~ar') // false
+  noSpecialChar('foo@ba^ar'); // false
+```
