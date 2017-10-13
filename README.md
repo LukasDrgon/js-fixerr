@@ -72,3 +72,10 @@ Simply add script tag
   upper('fooBaar') // false
   upper('Foobaar'); // false
 ```
+
+- ### string
+```js
+  string('FOOBAAR') // true
+  string('foobaar') // true
+  string(1233) // false
+```
