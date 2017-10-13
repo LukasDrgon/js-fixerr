@@ -25,3 +25,16 @@ Simply add script tag
   length('foobaar', 0, 7) // true
   length('foobaar', 0, 5); // false
 ```
+
+- ### required
+```js
+  required('foobaar') // true
+  required(''); // false
+  required(); // false
+```
+
+- ### noWhiteSpace
+```js
+  noWhiteSpace('foobaar') // true
+  noWhiteSpace('foo baar'); // false
+```
