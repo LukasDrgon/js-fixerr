@@ -79,3 +79,9 @@ Simply add script tag
   string('foobaar') // true
   string(1233) // false
 ```
+
+- ### number
+```js
+  number(12131) // true
+  number('foobaar') // false
+```
