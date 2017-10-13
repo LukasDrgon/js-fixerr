@@ -65,3 +65,10 @@ Simply add script tag
   lower('fooBaar') // false
   lower('Foobaar'); // false
 ```
+
+- ### upper
+```js
+  upper('FOOBAAR') // true
+  upper('fooBaar') // false
+  upper('Foobaar'); // false
+```
