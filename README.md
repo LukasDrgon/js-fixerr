@@ -150,3 +150,17 @@ Simply add script tag
     isIdExists('title') // true
     isIdExists('head') // false
 ```
+
+- ### isClassExists
+```js
+  <h2 class="title"></h2>
+    isClassExists('title') // true
+    isClassExists('head') // false
+```
+
+- ### isTagExists
+```js
+  <h2></h2>
+    isTagExists('h2') // true
+    isTagExists('h5') // false
+```
