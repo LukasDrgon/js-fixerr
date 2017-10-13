@@ -13,3 +13,9 @@ Simply add script tag
   min('foobaar', 3) // true
   min('foo', 5) // false
 ```
+
+- ### max
+```js
+  max('foobaar', 6) // true
+  max('foo', 2) // false
+```
