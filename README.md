@@ -38,3 +38,9 @@ Simply add script tag
   noWhiteSpace('foobaar') // true
   noWhiteSpace('foo baar'); // false
 ```
+
+- ### withWhiteSpace
+```js
+  withWhiteSpace('foo baar') // true
+  withWhiteSpace('foobaar'); // false
+```
