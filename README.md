@@ -164,3 +164,4 @@ Simply add script tag
     isTagExists('h2') // true
     isTagExists('h5') // false
 ```
+
