@@ -147,5 +147,6 @@ Simply add script tag
 - ### isIdExists
 ```js
   <h2 id="title"></h2>
-   - isIdExists('title') // true
+    isIdExists('title') // true
+    isIdExists('head') // false
 ```
