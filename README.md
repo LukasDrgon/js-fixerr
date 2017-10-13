@@ -143,3 +143,9 @@ Simply add script tag
   vowel('sdf') // false
   vowel('sdfa') // false
 ```
+
+- ### isIdExists
+```js
+  <h2 id="title"></h2>
+  isIdExists('title') // true
+```
