@@ -85,3 +85,58 @@ Simply add script tag
   number(12131) // true
   number('foobaar') // false
 ```
+
+- ### noAlphaNumeric
+```js
+  noAlphaNumeric('foobaar') // true
+  noAlphaNumeric('fooba901') // false
+```
+
+- ### mobile
+```js
+  mobile(1234567890) // true
+  mobile(745387) // false
+```
+
+- ### email
+```js
+  email('jsfixerr@gmail.com') // true
+  email('jsfixerr@com') // false
+  email('jsfix err@ gmail com') // false
+```
+
+- ### date
+```js
+  date('10/12/2017') // true
+  date('10-12-2017') // true
+  date('16/34/3434') //false
+```
+
+- ### array
+```js
+  array([23,23,90]) // true
+  array('[12,23,546]') // false
+  array(['a','b','c']) // true
+```
+
+- ### isInteger
+```js
+  isInteger(23) // true
+  isInteger('12') // false
+  isInteger('a') // false
+```
+
+- ### isFloat
+```js
+  isFloat(23.12) // true
+  isFloat('12') // false
+  isFloat(34) // false
+```
+- ### vowel
+```js
+  vowel('a') // true
+  vowel('aeo') // true
+  vowel('aeoiu') // true
+  vowel('sdf') // false
+  vowel('sdfa') // false
+```
