@@ -19,3 +19,9 @@ Simply add script tag
   max('foobaar', 6) // true
   max('foo', 2) // false
 ```
+
+- ### length
+```js
+  length('foobaar', 0, 7) // true
+  length('foobaar', 0, 5); // false
+```
