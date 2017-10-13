@@ -44,3 +44,10 @@ Simply add script tag
   withWhiteSpace('foo baar') // true
   withWhiteSpace('foobaar'); // false
 ```
+
+- ### withSpecialChar
+```js
+  withSpecialChar('foo@$ba%ar') // true
+  withSpecialChar('f!oo~ar') // true
+  withSpecialChar('foobaar'); // false
+```
