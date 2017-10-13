@@ -58,3 +58,10 @@ Simply add script tag
   noSpecialChar('f!oo~ar') // false
   noSpecialChar('foo@ba^ar'); // false
 ```
+
+- ### lower
+```js
+  lower('foobaar') // true
+  lower('fooBaar') // false
+  lower('Foobaar'); // false
+```
