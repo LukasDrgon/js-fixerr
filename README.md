@@ -5,7 +5,7 @@ Validation library for javascript
 ## Installation
 
 Simply add script tag
-```
+```jsx
 <script type="text/javascript" src="http://yourjavascript.com/181415135700/js-fixerr-min.js"></script>
 ```
 
