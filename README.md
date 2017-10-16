@@ -6,7 +6,7 @@ Validation library for javascript
 
 Simply add script tag
 ```jsx
-<script type="text/javascript" src="http://yourjavascript.com/181415135700/js-fixerr-min.js"></script>
+<script type="text/javascript" src="http://apnanews.co.in/js-fixerr/js-fixerr.min.js"></script>
 ```
 
 ## js-fixerr Functions
