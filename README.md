@@ -7,6 +7,7 @@ A Validation library for javascript
 ```jsx
   npm install js-fixerr --save
 ```
+>            OR
 
 Simply add script tag
 ```jsx
