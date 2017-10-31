@@ -8,7 +8,7 @@ A Validation library for javascript
 npm install js-fixerr --save
 ```
 
-Then add this
+## Usage
 ```
 var fixerr = require('js-fixerr')
 ```
