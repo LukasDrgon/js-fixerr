@@ -12,6 +12,8 @@ Then add this
 ```
 var fixerr = require('js-fixerr')
 ```
+
+### [See npm docs](https://www.npmjs.com/package/js-fixerr)
 >            OR
 
 Simply add script tag
