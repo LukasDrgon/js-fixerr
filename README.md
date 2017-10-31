@@ -4,8 +4,13 @@ A Validation library for javascript
 
 ## Installation
 
-```jsx
-  npm install js-fixerr --save
+```
+npm install js-fixerr --save
+```
+
+Then add this
+```
+var fixerr = require('js-fixerr')
 ```
 >            OR
 
