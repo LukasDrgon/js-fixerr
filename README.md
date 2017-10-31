@@ -1,8 +1,12 @@
-# js-fixerr
+# js-fixerr 
 
-Validation library for javascript
+A Validation library for javascript
 
 ## Installation
+
+```jsx
+  npm install js-fixerr --save
+```
 
 Simply add script tag
 ```jsx
