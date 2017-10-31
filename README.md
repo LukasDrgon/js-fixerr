@@ -1,4 +1,4 @@
-# js-fixerr 
+# js-fixerr  [![npm](logo.svg)]()
 
 A Validation library for javascript
 
