@@ -1,4 +1,4 @@
-# js-fixerr  [![npm](logo.svg)](https://www.npmjs.com/package/js-fixerr)
+# js-fixerr  [![npm](logo.svg)](https://www.npmjs.com/package/js-fixerr) ![npm](downloads.svg)
 
 A Validation library for javascript
 
