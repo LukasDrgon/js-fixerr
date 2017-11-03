@@ -177,4 +177,80 @@ Simply add script tag
     isTagExists('h2') // true
     isTagExists('h5') // false
 ```
+### isPrime
+```jsx
+  fixerr.isPrime(7) // return true
+  fixerr.isPrime(12) // return false
+```
 
+### isVideoUrl
+```jsx
+  fixerr.isVideoUrl('https://www.youtube.com/watch?v=LyrqhruLhBA') // return true
+  fixerr.isVideoUrl('https://www.youtube.com/watch?v=LyrqhruLhB') // return false
+```
+
+### isPositiveInteger
+```jsx
+  fixerr.isPositiveInteger(12) // return true
+  fixerr.isPositiveInteger(-10) // return false
+```
+
+### isEven
+```jsx
+  fixerr.isEven(12) // return true
+  fixerr.isEven(3) // return false
+```
+
+### isOdd
+```jsx
+  fixerr.isOdd(3) // return true
+  fixerr.isOdd(10) // return false
+```
+
+### isMacAddress
+```jsx
+  fixerr.isMacAddress('FF:FF:FF:FF:FF:FF') // return true
+  fixerr.isMacAddress('asman:asdas') // return false
+```
+
+### isleapYear
+```jsx
+  fixerr.isleapYear(2020) // return true
+  fixerr.isleapYear(2017) // return false
+```
+
+
+### isIPaddress
+```jsx
+  fixerr.isIPaddress('192.168.0.1') // return true
+  fixerr.isIPaddress('192.168.0.') // return false
+```
+
+### factors
+```jsx
+  fixerr.factors(5) // return 0,1,5
+```
+
+### factorial
+```jsx
+  fixerr.factorial(5) // return 120
+```
+
+### hasVowel
+```jsx
+  fixerr.hasVowel('asskdsdf') // return true
+  fixerr.hasVowel('zxcvbn') // return false
+```
+
+### isPerfectSquare
+```jsx
+  fixerr.isPerfectSquare(9) // return true
+  fixerr.isPerfectSquare(6) // return false
+```
+
+### isBoolean
+```jsx
+  fixerr.isBoolean(true) // return true
+  fixerr.isBoolean(false) // return true
+  fixerr.isBoolean(1) // return false
+```
