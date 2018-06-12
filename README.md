@@ -22,6 +22,11 @@ Simply add script tag
 <script type="text/javascript" src="http://apnanews.co.in/js-fixerr/js-fixerr.min.js"></script>
 ```
 
+you can also include it via CDN:
+```html
+<script src="https://cdn.jsdelivr.net/npm/js-fixerr/index.js"></script>
+```
+
 ## js-fixerr Functions
 
 
